@@ -43,7 +43,7 @@ func TestContainsVowel(t *testing.T) {
 
 	tests[i].S = []rune("y")
 	tests[i].Expected = false
-	i++
+	 i++
 
 	tests[i].S = []rune("cy")
 	tests[i].Expected = true
